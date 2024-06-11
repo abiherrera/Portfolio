@@ -47,11 +47,12 @@
     align-items: center;
     margin: 20px auto;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
-.texto {
-    margin-left: 20px;
+.texto{
+    text-align: justify;
+    margin-left: -120px;
 }
 
 main {
@@ -61,8 +62,8 @@ main {
 
 .foto-recuadro {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
 }
 
 .foto-recuadro img {
@@ -91,12 +92,6 @@ main {
         font-size: 15px;
     }
 }
-
-.social-icons {
-    text-align: right;
-    margin-right: 110px;
-}
-
 
 .social-icons a {
     font-size: 24px;
